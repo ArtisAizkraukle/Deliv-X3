@@ -41,7 +41,7 @@ const Body = () => {
 		<StatusBar style="auto" />
 
 		<TouchableOpacity style={styles.loginBtn} onPress={() => navigation.navigate('LoginScreen')}>
-		<Text style={styles.loginText}>PIETEIKT PIEGĀDI</Text>
+		<Text style={styles.loginText}>PIETEIKT PIEGĀD</Text>
 		</TouchableOpacity>
 		<CheckBox
 			onPress={() => setRules(!rules)}
